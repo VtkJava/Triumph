@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Triumph">
+    <output-path>$PROJECT_DIR$/out/artifacts/Triumph</output-path>
+    <root id="archive" name="Triumph.jar">
+      <element id="module-output" name="Triumph" />
+    </root>
+  </artifact>
+</component>
