@@ -1,4 +1,6 @@
 package figure;
+import ui.FigureCanvas;
+
 import java.awt.*;
 
 public class Rectangle extends Figure {

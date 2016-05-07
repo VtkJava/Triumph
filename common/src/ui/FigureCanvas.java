@@ -1,5 +1,7 @@
-package figure;
+package ui;
 
+
+import figure.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,6 +18,7 @@ import java.util.List;
 public class FigureCanvas extends JPanel {
 	public static final int DEFAULT_MARGIN = 50;
 	public static final Color DEFAULT_BORDER_COLOR = new Color(250, 244, 161);
+
 
 	private List<Figure> figures = new ArrayList<>();
 	private boolean isSelected;
@@ -352,7 +355,7 @@ public class FigureCanvas extends JPanel {
 
 	}
 
-	public static class CanvasBorder extends Rectangle {
+	public static class CanvasBorder extends figure.Rectangle {
 
 		public static final int DEFAULT_SIZE = 200;
 		private int minimumSize = DEFAULT_SIZE;

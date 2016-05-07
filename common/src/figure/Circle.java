@@ -1,5 +1,7 @@
 package figure;
 
+import ui.FigureCanvas;
+
 import java.awt.*;
 
 public class Circle extends Figure {

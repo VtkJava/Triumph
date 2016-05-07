@@ -1,19 +1,21 @@
 package figure;
 
+import ui.FigureCanvas;
+
 import java.awt.*;
 
 abstract public class Figure implements Runnable {
 
     public static final Color DEFAULT_COLOR = Color.GREEN;
 
-    private int x = 1;
-    private int y;
+    public int x = 1;
+    public int y;
     private int width;
     private int height;
 
     private FigureCanvas canvas;
 
-    private Color color;
+    public Color color;
 
     private Thread t;
     private boolean isRunning;
@@ -22,7 +24,7 @@ abstract public class Figure implements Runnable {
     private int sX;
     private int sY;
 
-    public Figure(int x, int y, int width, int height, FigureCanvas canvas) {
+    public Figure(int x, int y, int width, int height, FigureCanvas canvas, int translucent) {
         this(x, y, width, height, canvas, DEFAULT_COLOR);
     }
 
